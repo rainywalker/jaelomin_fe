@@ -1,4 +1,4 @@
-import {createStore,, applyMiddleware, compose} from 'redux';
+import {createStore,applyMiddleware, compose} from 'redux';
 import penderMiddleware from 'redux-pender';
 import modules from './modules';
 
