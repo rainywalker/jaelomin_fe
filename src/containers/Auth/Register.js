@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { AuthContent, InputWithLabel, AuthButton, RightAlignedLink } from 'components/Auth';
 
 class Register extends Component {
+    componentWillUnmount() {
+        const { AuthActions } = this.props;
+        AuthActions.initializeForm('register')
+    }
     render() {
         return (
             <AuthContent title="회원가입">
