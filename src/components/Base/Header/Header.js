@@ -10,16 +10,16 @@ const Positioner = styled.div`
     position: fixed;
     top: 0px;
     width: 100%;
-    ${shadow(1)}
-`;
+    ${shadow(1)}`
+;
 
 // 흰 배경, 내용 중간 정렬
 const WhiteBackground = styled.div`
     background: white;
     display: flex;
     justify-content: center;
-    height: auto;
-`;
+    height: auto`
+;
 
 // 해더의 내용
 const HeaderContents = styled.div`
@@ -37,8 +37,8 @@ const HeaderContents = styled.div`
 
     ${media.tablet`
         width: 100%;
-    `}
-`;
+    `}`
+;
 
 // 로고
 const Logo = styled.div`

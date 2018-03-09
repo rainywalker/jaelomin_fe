@@ -1,6 +1,21 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
+import * as baseActions from 'redux/modules/base';
+
 
 class Auth extends Component {
+
+    componentWillMount() {
+
+        this.props.BaseActions.setHeaderVisibility(false)
+    }
+
+    componentWillUnmount() {
+        this.props.BaseActions.setHeaderVisibility(true)
+    }
+
+
     render() {
         return (
             <div>
@@ -10,6 +25,11 @@ class Auth extends Component {
     }
 }
 
+export default connect(
+    (state) => ({
 
-
-export default Auth;
+    }),
+    (dispatch) => ({
+        BaseActions: bindActionCreators(baseActions, dispatch)
+    })
+)(Auth);

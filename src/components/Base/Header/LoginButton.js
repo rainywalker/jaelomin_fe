@@ -26,9 +26,10 @@ const BorderedButton = styled(Link)`
 ;
 
 const LoginButton = () => (
-    <BorderedButton to='/auto/login'>
+    <BorderedButton to='/auth/login'>
             로그인/가입
     </BorderedButton>
 );
 
+export default LoginButton;
 
