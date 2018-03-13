@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e0a5cac-a18f-4520-8588-bdb7377554b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lib/storage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/redux/modules/user.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
       <change beforePath="$PROJECT_DIR$/src/containers/Auth/Login.js" afterPath="$PROJECT_DIR$/src/containers/Auth/Login.js" />
       <change beforePath="$PROJECT_DIR$/src/containers/Auth/Register.js" afterPath="$PROJECT_DIR$/src/containers/Auth/Register.js" />
-      <change beforePath="$PROJECT_DIR$/src/redux/modules/index.js" afterPath="$PROJECT_DIR$/src/redux/modules/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Base/HeaderContainer.js" afterPath="$PROJECT_DIR$/src/containers/Base/HeaderContainer.js" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,11 +34,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Auth/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="84" column="50" lean-forward="true" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
+            <state relative-caret-position="525">
+              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeaderContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Base/HeaderContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -49,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/redux/modules/auth.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1035">
-              <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+              <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
               <folding>
                 <element signature="e#0#60#0" expanded="true" />
               </folding>
@@ -67,34 +92,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Auth/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginButton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Base/Header/LoginButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Register.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Auth/Register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="55">
+              <caret line="103" column="45" lean-forward="false" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,8 +107,8 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/modules/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="86">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -144,12 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>isEmail, isLength, isAlphanumeri</find>
-      <find>validator</find>
-      <find>consol</find>
-      <find>Jaelo</find>
-      <find>oc.teal</find>
-      <find>console</find>
       <find>setError</find>
       <find>SET_ERROR</find>
       <find>shake</find>
@@ -164,7 +163,6 @@
       <find>로그인/가입</find>
       <find>/login</find>
       <find>/auth/register</find>
-      <find>/auth/login</find>
       <find>'auth/</find>
       <find>/auth/api</find>
       <find>/auth</find>
@@ -174,6 +172,13 @@
       <find>handleLocalRegister</find>
       <find>loggedInfo</find>
       <find>UserActions</find>
+      <find>userActionsuserActions</find>
+      <find>import * as userActions from 'redux/modules/user';</find>
+      <find>userActions</find>
+      <find>onClick={handleLocalLogin}</find>
+      <find>handleLocalLogin</find>
+      <find>/auth/login</find>
+      <find>expired</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -194,10 +199,8 @@
         <option value="$PROJECT_DIR$/src/pages/Home.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/components/Header/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/Base/HeaderContainer.js" />
         <option value="$PROJECT_DIR$/src/components/Base/Header/index.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/redux/modules/base.js" />
         <option value="$PROJECT_DIR$/src/components/Auth/AuthContent.js" />
         <option value="$PROJECT_DIR$/src/components/Auth/Login.js" />
@@ -221,7 +224,9 @@
         <option value="$PROJECT_DIR$/src/redux/modules/index.js" />
         <option value="$PROJECT_DIR$/src/lib/storage.js" />
         <option value="$PROJECT_DIR$/src/containers/Auth/Register.js" />
+        <option value="$PROJECT_DIR$/src/containers/Base/HeaderContainer.js" />
         <option value="$PROJECT_DIR$/src/containers/Auth/Login.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -390,7 +395,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520492474701</updated>
-      <workItem from="1520492475984" duration="39934000" />
+      <workItem from="1520492475984" duration="41193000" />
     </task>
     <task id="LOCAL-00001" summary="README 파일 수정">
       <created>1520503609022</created>
@@ -476,11 +481,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520929639939</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="회원가입 및 유저정보를 받아 로그인 구현">
+      <created>1520933720462</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1520933720462</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39934000" />
+    <option name="totallyTimeSpent" value="41193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1440" height="830" extended-state="6" />
@@ -525,7 +537,8 @@
     <MESSAGE value="API 함수 준비 / redux-pender 적용" />
     <MESSAGE value="redux action 작업" />
     <MESSAGE value="문자열 검증 및 오류 문구 보여주기" />
-    <option name="LAST_COMMIT_MESSAGE" value="문자열 검증 및 오류 문구 보여주기" />
+    <MESSAGE value="회원가입 및 유저정보를 받아 로그인 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="회원가입 및 유저정보를 받아 로그인 구현" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -617,16 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/modules/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -634,14 +637,6 @@
           <folding>
             <element signature="e#0#32#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Base/HeaderContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,9 +792,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +809,7 @@
     <entry file="file://$PROJECT_DIR$/src/redux/modules/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
-          <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+          <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
           </folding>
@@ -828,16 +821,6 @@
         <state relative-caret-position="30">
           <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/modules/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,18 +842,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/modules/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Auth/Register.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="55">
+          <caret line="103" column="45" lean-forward="false" selection-start-line="103" selection-start-column="45" selection-end-line="103" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Base/HeaderContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Auth/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="84" column="50" lean-forward="true" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
+        <state relative-caret-position="525">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

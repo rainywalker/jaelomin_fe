@@ -3,9 +3,9 @@ import { AuthContent, InputWithLabel, AuthButton, RightAlignedLink, AuthError } 
 import { connect } from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as authActions from 'redux/modules/auth';
+import * as userActions from 'redux/modules/user';
 import {isEmail, isLength, isAlphanumeric} from 'validator'
 import {debounce} from 'lodash';
-import * as userActions from 'redux/modules/user';
 import storage from 'lib/storage';
 
 
@@ -101,7 +101,7 @@ class Register extends Component {
 
     }
     handleLocalRegister = async () => {
-        const {form, AuthActions, error, history} = this.props;
+        const {form, AuthActions, UserActions, error, history} = this.props;
         const { email, username, password, passwordConfirm } = form.toJS();
 
         const { validate } = this;

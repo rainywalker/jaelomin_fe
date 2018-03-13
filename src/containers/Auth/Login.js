@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { AuthContent, InputWithLabel, AuthButton, RightAlignedLink, AuthError } from 'components/Auth';
 import { connect } from 'react-redux';
 import {bindActionCreators} from 'redux';
+import queryString from 'query-string';
 import * as authActions from 'redux/modules/auth';
 import * as userActions from 'redux/modules/user';
 import storage from 'lib/storage';
@@ -22,6 +23,14 @@ class Login extends Component {
     componentWillUnmount() {
         const { AuthActions } = this.props;
         AuthActions.initializeForm('login')
+    }
+    componentDidMount() {
+        const { location } = this.props;
+        const query = queryString.parse(location.search);
+
+        if(query.expired !== undefined) {
+            this.setError('세션에 만료되었습니다. 다시 로그인하세요.')
+        }
     }
     setError = message => {
         const {AuthActions} = this.props;
@@ -73,7 +82,7 @@ class Login extends Component {
                 {
                     error && <AuthError>{error}</AuthError>
                 }
-                <AuthButton>로그인</AuthButton>
+                <AuthButton onClick={handleLocalLogin}>로그인</AuthButton>
                 <RightAlignedLink to="/auth/register">회원가입</RightAlignedLink>
             </AuthContent>
         );
@@ -81,14 +90,13 @@ class Login extends Component {
 }
 
 export default connect(
-    state => ({
-        form : state.auth.getIn(['login','form']),
+    (state) => ({
+        form: state.auth.getIn(['login', 'form']),
         error: state.auth.getIn(['login', 'error']),
         result: state.auth.get('result')
-
     }),
-    dispatch => ({
-        AuthActions : bindActionCreators(authActions, dispatch),
-        serActions: bindActionCreators(userActions, dispatch)
+    (dispatch) => ({
+        AuthActions: bindActionCreators(authActions, dispatch),
+        UserActions: bindActionCreators(userActions, dispatch)
     })
-)(Login)
+)(Login);
